@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file -->
+    <title>Marilyn's Favorite Artist</title>
+</head>
+<body>
+    <nav>
+        <!-- Navigation Links for Each Singer -->
+        <ul>
+        <a href="index.html" class = "notcurrent">Home</a>
+        <a href="lauv.html" class = "notcurrent">Lauv</a>
+        <a href="glassanimal.html" class = "notcurrent">Glass Animal</a>
+        <a href="guoding.html" class = "current">Guo Ding</a>
+        <a href="nopartyforcaodong.html" class = "notcurrent">No Party For Cao Dong</a>
+        <a href="fkj.html" class = "notcurrent">FKJ</a>
+    </ul>
+    </nav>
+
+    <div class="songlist">
+        <div class = "card" tabindex="0" role="button" id ="Fog">
+            <div class = "TheFogSpace">
+                <img src="img/TheFogSpace.jpeg" alt = "Photo of the song The fog space" class = "songlist songlist_1" data-target="fogspaceText">
+                <h3>The Fog Space</h3>
+                <p><em>“我还记得平坦山丘，如今身在开花沼泽”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id ="Five">
+            <div class = "FiveFifteen">
+                <img src="img/song2_5：15.jpeg" alt = "Photo of the song 5:15" class = "songlist songlist_2" data-target="5:15Text">
+                <h3>_5:15</h3>
+                <p><em>“夜尽管泛滥伏在黑雨之下，爱人的形状是绝无仅有的”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id ="Mercury">
+            <div class = "MercuryRecord" >
+                <img src="img/shuixingji.jpg" alt = "Photo of the song Mercury Record" class = "songlist songlist_3" data-target="MercuryText">
+                <h3>Mercury Record</h3>
+                <p><em>“还要多远才能进入你的心，还要多久才能和你接近”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id ="Little">
+            <div class = "ItsAlways">
+                <img src="img/ItsAlwaysTheLittle.jpg" alt = "Photo of the song It's Always the Little Things" class = "songlist songlist_4" data-target="LittleText">
+                <h3>It's Always The Little Things</h3>
+                <p><em>“I long to see the light. I'm waiting for a sign.”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id ="digi">
+            <div class = "DIGI">
+                <img src="img/DIGI1.jpg" alt = "Photo of the DIGI 1 Album" class = "songlist songlist_5" data-target="digiText">
+                <h3>DIGI1</h3>
+                <p>This is a soundscape album for people who suffers from sleep disorders.</p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id ="star">
+            <div class = "Silent Star Stone">
+                <img src="img/AlbumCover_GD.jpg" alt = "Photo of the Silent Star Stone Album" class = "songlist songlist_6" data-target="silentText">
+                <h3>Silent Star Stone</h3>
+                <p>This is my favorite album of all time.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class = "player">
+        <div class="spotify-player" id="Fog">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3pGRliohdQk6NWJxYyctw5?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="Five">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0E0i9vRG8qqNffaqwoLunn?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="Mercury">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3CDcr9ogSecLIwourcz760?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="Little">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2iwgz9oZJjmdxEaRfLzYsY?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="digi">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4VkzxvO2yW1BmE2JdxPT0k?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="star">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0Xxoh9bYLeYX1iwKDt9Xky?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+    <script src="js/style.js"></script>
+</body>
+</html>

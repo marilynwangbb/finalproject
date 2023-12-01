@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    padding-top:80px;
+    background-image: url("/img/home_background.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+
+
+
+nav {
+    font-family: Papyrus;
+    font-weight:bolder;
+    margin: 0 auto;
+    text-align:center;
+}
+
+nav a{
+    color:bisque;
+    text-decoration:none;
+    font-size:25px;
+    
+    margin:5%;
+}
+
+nav a:hover{
+    text-decoration:underline;
+    text-underline-offset:10px;
+}
+
+
+h1{
+    color:bisque;
+    font-family:Papyrus;
+}
+
+h2{
+    color: #14addc;
+    font-family:"Copperplate";
+    text-transform:uppercase;
+    text-align:center;
+    padding-bottom:65px;
+    letter-spacing:10px;
+    font-size:40px;
+    padding-top:65px;
+}
+
+.artist_photo{
+    width: 300px;
+    height: 300px;
+    border-radius:2px;
+    box-shadow: 0 20px 40px rgba(0,0,0,4);
+
+    position: absolute;
+    z-index:10;
+    outline-offset:15px;
+    transition: all 0.2s;
+}
+
+.artist_photo:hover,.artist_photo:focus{
+    outline: 10px solid #14addc;
+    transform:scale(1.1) translateY(-20px);
+    z-index: 20;
+}
+
+.artist{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.artist_photo_1{
+    top: 0;
+    left: 0;
+    z-index:1;
+}
+
+.artist_photo_2{
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.artist_photo_3{
+    top:40px;
+    right: 20%;
+}
+
+.artist_photo_5{
+    top:80px;
+    right:40%;
+}
+
+.artist_photo_4{
+    top:40px;
+    left: 20%;
+    z-index:2;
+}
+
+
+.intro{
+    position:absolute;
+    bottom: 20%;
+    background-color:rgba(255,255,255,0.1);
+    box-shadow: 10px 10px 20px rgba(255,255,255,0.1);
+    text-align: center;
+    border-radius:10px;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+
+h3{
+    font-family: "Copperplate";
+    color:bisque;
+    text-align:center;
+    font-size:30px;
+}
+
+p{
+    color:#14addc;
+    text-align:center;
+    display:block;
+    font-size:25px;
+}
+
+
+.songlist{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:3%;
+    column-gap:1%;
+    row-gap:1%;
+}
+
+.card{
+    border-radius:10px;
+    background-color:rgb(255,255,255,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    width:600px;
+    height:600px;
+}
+
+.card img{
+    width:500px;
+    height:500px;
+    margin:0 auto;
+}
+
+.card:hover,.card:focus{
+    transform: scale(1.1); /* Slightly enlarges the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.current{
+    font-size:35px;
+    font-weight: bolder;
+    color:#14addc;
+}
+
+.spotify-player{
+    display:none;
+}
+
+

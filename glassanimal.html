@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file -->
+    <title>Marilyn's Favorite Artist</title>
+</head>
+<body class = "glass">
+    <nav>
+        <!-- Navigation Links for Each Singer -->
+        <ul>
+        <a href="index.html" class = "notcurrent">Home</a>
+        <a href="lauv.html" class = "notcurrent">Lauv</a>
+        <a href="glassanimal.html" class = "current">Glass Animal</a>
+        <a href="guoding.html" class = "notcurrent">Guo Ding</a>
+        <a href="nopartyforcaodong.html" class = "notcurrent">No Party For Cao Dong</a>
+        <a href="fkj.html" class = "notcurrent">FKJ</a>
+    </ul>
+    </nav>
+
+    <div class="songlist">
+        <div class = "card" tabindex="0" role="button" id="heat">
+            <div class = "heatwaves">
+                <img src="img/heatwave.jpg" alt = "Photo of the song heat waves" class = "songlist songlist_1" data-target="heatText">
+                <h3>Heat Waves</h3>
+                <p><em>“Usually I put somethin' on TV. So we never think about you and me.But today I see our reflections.Clearly in Hollywood...”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id="domestic">
+            <div class = "domesticbliss">
+                <img src="img/GADreamLand.jpg" alt = "Photo of the Dream Land album song: domestic bliss" class = "songlist songlist_2" data-target="domesticText">
+                <h3>Domestic Bliss</h3>
+                <p><em>“Fight for me. We can leave, I'm beggin'. Please, on my, on my knees. Go to Hawaii”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id="gooey">
+            <div class = "gooey">
+                <img src="img/gooey.jpeg" alt = "Photo of the song gooey" class = "songlist songlist_3" data-target="gooeyText">
+                <h3>Gooey</h3>
+                <p><em>"While my naked fool fresh out of an icky gooey womb. A woozy youth,d opes up on her silky smooth perfume”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id="black">
+            <div class = "blackmambo">
+                <img src="img/blackmambo.jpg" alt = "Photo of the song black mambo" class = "songlist songlist_4" data-target="blackText">
+                <h3>Black Mambo</h3>
+                <p><em>“Slow down, it's a science. He's been waiting to bring you down. Snake-eyed, with a sly smile”</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id="agnes">
+            <div class = "agnes">
+                <img src="img/agnes.jpg" alt = "Photo of Agnes" class = "songlist songlist_5" data-target="agnesText">
+                <h3>Agnes</h3>
+                <p><em>"That trembling tender little sigh.And so it goes, a choking rose back, to be reborn.I want to hold you like you're mine"</em></p>
+            </div>
+        </div>
+
+        <div class = "card" tabindex="0" role="button" id="cocoa">
+            <div class = "cocoahooves">
+                <img src="img/cocoahooves.jpg" alt = "Photo of the album Zaba song: cocoa hooves" class = "songlist songlist_6" data-target="cocoaText">
+                <h3>Cocoa Hooves</h3>
+                <p>"Sips froth from soft, warm joe. Snug eiderdown bedclothes. You know, you know the way that I..."</p>
+            </div>
+        </div>
+
+    </div>
+    <div class = "player">
+        <div class="spotify-player" id="heat">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3USxtqRwSYz57Ewm6wWRMp?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="domestic">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2obTmJzxgLZ2rxwb8zX6te?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="gooey">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1gk3FhAV07q9Jg77UxnVjX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="black">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7bfjVe06NIMNzE9G2cO5fO?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="agnes">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6prvUr8l3t7x5GY7heQb5w?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="spotify-player" id="cocoa">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3mRBPZbnwsmddN0JH5BNVl?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+    <script src="js/style.js"></script>
+
+</body>
+</html>
