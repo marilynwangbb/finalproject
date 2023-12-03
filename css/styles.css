@@ -7,8 +7,7 @@
 body{
     height:100vh;
     padding-top:80px;
-    background-colo: black;
-    background-image: url("/img/home_background.jpg");
+    background-image: url("../img/home_background.jpg");
     background-size:cover;
     background-attachment:fixed;
 }
