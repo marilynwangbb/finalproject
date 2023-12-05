@@ -267,7 +267,7 @@
     nav a{
         color:bisque;
         text-decoration:none;
-        font-size:30px;
+        font-size:25px;
         
         margin:1%;
     }
@@ -395,13 +395,13 @@
         background-color:rgb(255,255,255,0.1);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         margin: 5%;
-        width:600px;
-        height:600px;
+        width:400px;
+        height:400px;
     }
     
     .card img{
-        width:500px;
-        height:500px;
+        width:250px;
+        height:250px;
         margin:0 auto;
     }
 
