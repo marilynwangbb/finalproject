@@ -354,14 +354,16 @@
     
     
     .intro{
+        display:block;
         position:absolute;
-        bottom: 5%;
+        bottom: 2%;
         background-color:rgba(255,255,255,0.1);
         box-shadow: 10px 10px 20px rgba(255,255,255,0.1);
         text-align: center;
         border-radius:10px;
         margin-left:2%;
         margin-right:2%;
+        margin-top:5%;
     }
     
     
